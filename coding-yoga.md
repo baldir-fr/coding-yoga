@@ -26,3 +26,42 @@ For the next step, please checkout the following `git tag`.
 ```shell
 git checkout 02-create-a-file
 ```
+
+## 02 - Create a file
+
+```shell
+git checkout 02-create-a-file
+```
+
+We will create a file named `notes.md`.
+
+On the left pane, 
+- right click on `coding-yoga`
+- new
+- file
+- type "notes.md"
+
+This file has a different color than the other files (dark yellow or dark red). It means it is `ignored by git`. You can check the files ignored by `git` by opening the `.gitignore` file.
+
+To open the `.gitignore` file, on the left pane, double-click on its name (`.gitignore`).
+
+It will open in the current editor view.
+
+You can scroll down this file with your mouse or your keyboard arrows.
+
+You should see the following lines:
+
+```gitignore
+### Yoga unversioned files
+notes.md
+```
+
+Now, switch back to the `notes.md` file by double-clicking on its name (`notes.md`).
+
+I encourage you to note the useful tips you will learn during this yoga session into this file.
+
+## 03 - Hello world Java
+
+```shell
+git checkout 03-hello-world-java
+```
